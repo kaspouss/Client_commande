@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app>
+	<servlet>
+		<servlet-name>Input_client</servlet-name>
+		<servlet-class>com.sdzee.tp.servlets.Input_client</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>Input_commande</servlet-name>
+		<servlet-class>com.sdzee.tp.servlets.Input_commande</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CreationClient</servlet-name>
+		<servlet-class>com.sdzee.tp.servlets.CreationClient</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CreationCommande</servlet-name>
+		<servlet-class>com.sdzee.tp.servlets.CreationCommande</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Input_client</servlet-name>
+		<url-pattern>/input_client</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Input_commande</servlet-name>
+		<url-pattern>/input_commande</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CreationClient</servlet-name>
+		<url-pattern>/creationClient</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CreationCommande</servlet-name>
+		<url-pattern>/creationCommande</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
+</element> 
